@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.home {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  margin-bottom: 110px;
+}
+.content {
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col50 {
+  width: 45%;
+  text-align: justify;
+}
+.col50 h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.col50 h3 {
+  margin: 20px 0;
+}
+
+.col50 img {
+  width: 100%;
+}
+.col50 .title {
+  color: orange;
+}
+.link-btn {
+  margin-top: 20px;
+}
+.button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(to right, orange, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.big-dream {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 100px;
+}
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  top: 50%;
+  left: 0;
+}
+.experience h2 {
+  font-size: 40px;
+}
+.experience-content {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+.card {
+  width: 40%;
+  height: 400px;
+  margin-left: 5%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 40px gray;
+}
+.card h2 {
+  margin-bottom: 20px;
+}
+.card span {
+  color: orange;
+  font-weight: 700;
+}
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(orange, tomato);
+  border-image-slice: 1;
+}
+#baby {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, aqua);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
+}
