@@ -100,56 +100,48 @@ const skillsDetails = () =>{
                     <img class='icon' src='../icon/html.svg' alt=''/>
                     <div class='progress-bar'></div>
                 </div>
-                <small class='progress-num'>90%</small>
             </div>
             <div class='progress-item'>
                 <div class='progress-info'>
                     <img class='icon' src='../icon/css.svg' alt=''/>
                     <div class='progress-bar-css'></div>
                 </div>
-                <small class='progress-num'>80%</small>
             </div>
             <div class='progress-item'>
                 <div class='progress-info'>
                     <img class='icon' src='../icon/bootstrap-4.svg' alt=''/>
                     <div class='progress-bar-css'></div>
-                </div>
-                <small class='progress-num'>80%</small> 
+                </div> 
             </div>
             <div class='progress-item'>
                 <div class='progress-info'>
                     <img class='icon' src='../icon/tailwind-css.svg' alt=''/>
                     <div class='progress-bar-css'></div>
-                </div>
-                <small class='progress-num'>80%</small> 
+                </div> 
             </div>
             <div class='progress-item'>
                 <div class='progress-info'>
                     <img class='icon' src='../icon/js.svg' alt=''/>
                     <div class='progress-bar-js'></div>
                 </div>
-                <small class='progress-num'>60%</small>
             </div>
             <div class='progress-item'>
                 <div class='progress-info'>
                     <img class='icon' src='../icon/react-js.svg' alt=''/>
                     <div class='progress-bar-other'></div>
                 </div>
-                <small class='progress-num'>55%</small>
             </div>
             <div class='progress-item'>
                 <div class='progress-info'>
                     <img class='icon' src='../icon/node-js.svg' alt=''/>
                     <div class='progress-bar-other'></div>
                 </div>
-                <small class='progress-num'>55%</small>
             </div>
             <div class='progress-item'>
                 <div class='progress-info'>
                     <img class='icon' src='../icon/mongodb-icon.svg' alt=''/>
                     <div class='progress-bar-other'></div>
                 </div>
-                <small class='progress-num'>55%</small>
             </div>                                   
         </div>
     
@@ -165,22 +157,26 @@ const contactDetails = () =>{
             
             <div class="input-area">
                 <h2 class="title">Contact Me</h2>
-                <div class="inputBox">
-                    <input type="text" required>
-                    <p>Your Name</p>
-                </div>
-
-                <div class="inputBox">
-                    <input type="email" required>
-                    <p>Email</p>
-                </div>
-
-                <div class="inputBox">
-                    <textarea name="" id="" cols="30" rows="10" required></textarea>
+                <form id="contactform" action="https://formsubmit.io/send/somonsikder777@gmail.com" method="POST">
+                    
+                    <div class="inputBox">
+                        <input name="name" type="text" id="name">
+                        <p>Your Name</p>
+                    </div>
+                    <div class="inputBox">
+                        <input name="email" type="email" id="email">
+                        <p>Your Email</p>
+                    </div>
+                    <div class="inputBox">
+                    <textarea name="comment" id="comment" rows="3"></textarea>
                     <p>Message</p>
-                </div>
+                    </div>
+                    
+                    <input name="_formsubmit_id" type="text" style="display:none">
 
-                <input type="submit" value="Send">
+                    <input value="Submit" type="submit">
+                </form>
+               
             </div>
             
         </div>
